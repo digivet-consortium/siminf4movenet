@@ -1,13 +1,19 @@
 Package: siminf4movenet
-Title: What the Package Does (One Line, Title Case)
+Title: A `SimInf` SEIR model with infectious pressures between nodes supplied via contact matrix (SEIRcm) 
 Version: 0.1.0-1
-Date: 2023-05-25
-Description: What the package does (one paragraph).
+Date: 2023-12-07
+Description: A `SimInf` model designed for the `movenet` package, which 
+  facilitates the use of livestock movement data in veterinary public health. 
+  The SEIRcm model is a holding-unit SEIR model with between-holding infectious 
+  pressures supplied via a contact matrix.
 Authors@R:
     c(person(given = "Matt", family = "Denwood",
              email = "md@sund.ku.dk", role = c("aut", "cre")),
       person(given = "Carlijn", family = "Bogaardt",
-             email = "Carlijn.Bogaardt@glasgow.ac.uk", role = "aut"),
+             email = "Carlijn.Bogaardt@glasgow.ac.uk", role = "aut",
+             comment = c(ORCID = "0000-0002-9322-6978")),
+      person(given = "Jess", family = "Enright",
+             email = "Jess.Enright@glasgow.ac.uk", role = "aut"),
       person(given = "Stefan", family = "Widgren",
              email = "stefan.widgren@sva.se", role = "aut",
              comment = c(ORCID = "0000-0001-5745-2284"))
@@ -19,10 +25,7 @@ RoxygenNote: 7.2.3
 Depends:
   SimInf (>= 9.3.1)
 Imports:
-  dplyr,
-  methods,
-  rlang,
-  tibble
+  methods
 Suggests: 
   knitr,
   rmarkdown,

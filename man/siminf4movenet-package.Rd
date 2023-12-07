@@ -7,19 +7,14 @@
 \alias{siminf4movenet}
 \title{What the Package Does (One Line, Title Case)}
 \description{
-What the package does (one paragraph).
+A `SimInf` model designed for the `movenet` package, which facilitates the use of livestock movement data in veterinary public health. The SEIRcm model is a holding-unit SEIR model with between-holding infectious pressures supplied via a contact matrix.
 }
 \details{
 Some description of the package
-}
-\examples{
-## An example function:
-df <- example_function()
-df
+\subsection{To cite this package in publications use:}{
 
-## To cite this package in publications use:
 citation("siminf4movenet")
-
+}
 }
 \references{
 Some article that you might want users to look at
@@ -32,7 +27,8 @@ Some article that you might want users to look at
 
 Authors:
 \itemize{
-  \item Carlijn Bogaardt \email{Carlijn.Bogaardt@glasgow.ac.uk}
+  \item Carlijn Bogaardt \email{Carlijn.Bogaardt@glasgow.ac.uk} (\href{https://orcid.org/0000-0002-9322-6978}{ORCID})
+  \item Jess Enright \email{Jess.Enright@glasgow.ac.uk}
   \item Stefan Widgren \email{stefan.widgren@sva.se} (\href{https://orcid.org/0000-0001-5745-2284}{ORCID})
 }
 
